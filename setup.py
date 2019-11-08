@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="quintagroup.xmlsec.init",
-    version="0.1.0",
+    version="0.2.0",
     description="A simple package for dm.xmlsec.binding initialization",
     author="Taras Dyshkant",
     author_email="hitori@quintagroup.org",
