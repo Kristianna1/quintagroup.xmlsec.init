@@ -2,7 +2,7 @@
 
 from zope.i18nmessageid import MessageFactory
 
-_ = MessageFactory('qg.xmlsec.binding.init')
+_ = MessageFactory('quintagroup.xmlsec.init')
 
 def initialize(context):
     """Initializer called when used as a Zope 2 product."""

@@ -5,18 +5,17 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="qg.xmlsec.binding.init",
+    name="quintagroup.xmlsec.init",
     version="0.1.0",
     description="A simple package for dm.xmlsec.binding initialization",
     author="Taras Dyshkant",
     author_email="hitori@quintagroup.org",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://gitlab.quintagroup.com/hitori/qg.xmlsec.binding.init",
+    url="https://github.com/quintagroup/quintagroup.xmlsec.init",
     packages=find_packages(),
-    namespace_packages=["qg",
-                        "qg.xmlsec",
-                        "qg.xmlsec.binding",
+    namespace_packages=["quintagroup",
+                        "quintagroup.xmlsec",
     ],
     install_requires=["setuptools",
                       "dm.xmlsec.binding>=2.0",
